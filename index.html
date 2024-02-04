@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat&family=Noto+Sans+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-pressed="true" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="Close menu"></label>
+    <aside class="bg-darkblue menu">
+        <div class="menu-content">
+            <a id="logo" href="#inicio" onclick="getElementById('close-menu').checked = false">FRB</a>
+            <menu class="menu-items" onclick="getElementById('close-menu').checked = false">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </menu>
+        </div>
+    </aside>
+    <section id="inicio" class="bg-darkblue inicio">
+        <div class="intro">
+            <h2>Olá, eu sou o</h2>
+            <h1>Felipe <br> Rodrigues <br> Batista</h1>
+            <h3>Sou graduando em Engenharia Química pela Universidade Estadual de Maringá e fascinado pela <span
+                    class="destaque">programação</span>.</h3>
+        </div>
+    </section>
+    <section id="sobre" class="bg-pattern sobre">
+        <h1>Sobre</h1>
+        <div class="container">
+            <p class="p-esquerda">Nascido em 26 de março de 2001, na cidade de Paranavaí/PR, passei a maior parte da
+                minha infância na cidade de Fairfield/CT nos Estados Unidos. <br><br>Desde pequeno até o ensino médio,
+                eu tinha um sonho de ser uma <span class="destaque">cientista</span>, trabalhando em um laboratório, de
+                jaleco e tudo mais, por isso escolhi cursar Engenharia Química. Após cinco anos de curso e um estágio na
+                área de Meio Ambiente, percebi que, na verdade, não era bem isso que eu queria para meu futuro.</p>
+            <div class="container-imagem">
+                <img src="assets/img/foto1.jpg"
+                    alt="Foto de criança de Felipe Rodrigues Batista com roupa de frio encostado em uma árvore em meio a neve.">
+            </div>
+        </div>
+        <div class="container">
+            <div class="container-imagem">
+                <img src="assets/img/foto2.jpeg" alt="Foto de membros do PET Engenharia Química.">
+            </div>
+            <p class="p-direita">Durante a graduação, participei de uma instituição acadêmica fomentada pelo Governo
+                Federal: o Programa de Educação Tutorial <span class="destaque">(PET)</span> de Engenharia Química.
+                <br><br>Ao longo dos três anos e meio no PET, desenvolvi atividades relacionadas à tríade de Ensino,
+                Pesquisa e Extensão. E foi nesse período que pude desenvolver uma iniciação científica envolvendo
+                programação e simulação de procesos químicos.</p>
+        </div>
+        <div class="container">
+            <p class="p-esquerda">Para o trabalho de conclusão de curso, desenvolvi, em conjunto com um amigo, um
+                <i>software</i> capaz de simular e dimensionar sistemas de evaporação de múltiplos efeitos, ao qual
+                demos o nome de <span class="destaque">Evaporatech</span>. <br><br>O Evaporatech foi escrito em
+                linguagem C#, baseado na programação orientada a objetos, e, além de nos garantir nota máxima, despertou
+                o interesse dos professores da disciplina de Operações Unitárias, que utilizaram o <i>software</i> para
+                ensinar sobre Evaporação para os acadêmicos do quatro ano. </p>
+            <div class="container-imagem">
+                <img src="assets/img/foto3.png" alt="Captura de tela do software Evaporatech.">
+            </div>
+        </div>
+        <div class="container-hobbies">
+            <p>No meu tempo livre, gosto de ler livros, sair com meus amigos, levar meu cachorro para passear e jogar
+                Valorant.</p>
+        </div>
+    </section>
+    <section id="experiencia" class="bg-darkblue experiencia">
+        <h1>Experiência</h1>
+        <div class="experiencia-center">
+            <div class="container-experiencia">
+                <h4>2019 — presente</h4>
+                <div class="conteudo">
+                    <h5>Bacharelado em Engenharia Química</h5>
+                    <h6>Universidade Estadual de Maringá</h6>
+                </div>
+                <h4>nov, 2019 — mai, 2023</h4>
+                <div class="conteudo">
+                    <h5>PET Engenharia Química</h5>
+                    <h6>Universidade Estadual de Maringá</h6>
+                    <p>No PET, pude participar das cinco diretorias que estão contempladas no grupo: Cursos, Eventos,
+                        Gestão de Pessoas, Manutenção e Projetos. Organizei eventos para a comunidade interna e externa
+                        da UEM, ministrei cursos de Excel, DWSIM e calculadora HP Prime, apresentei seminários de
+                        processos industriais, trabalhei diretamente com professores do Departamento de Engenharia
+                        Química, participei de mostras de profissões, desenvolvi técnicas de avaliação interna de
+                        membros e muito mais. No meu último ano no PET, atuei como líder do grupo, sendo responsável por
+                        organizar as reuniões semanais e representá-lo nos eventos externos.</p>
+                </div>
+                <h4>nov, 2023 — mar, 2024</h4>
+                <div class="conteudo">
+                    <h5>Estágio de Meio Ambiente e Utilidades</h5>
+                    <h6>Be8</h6>
+                    <p>Responsável por coletar amostras de águas e efluentes industriais e realizar as análises
+                        físico-químicas, atualizar documentos do setor de Meio Ambiente, realizar contagem de estoque e
+                        acompanhar a operação da estação de tratamento de efluentes.</p>
+                </div>
+                <h4>fev, 2023 — mai, 2023</h4>
+                <div class="conteudo">
+                    <h5>Curso de programação em C#</h5>
+                    <h6>Udemy</h6>
+                </div>
+                <h4>jun, 2023</h4>
+                <div class="conteudo">
+                    <h5>Curso de PowerBI</h5>
+                    <h6>Udemy</h6>
+                </div>
+                <h4>jan, 2024 — presente</h4>
+                <div class="conteudo">
+                    <h5>Curso de JavaScript/TypeScript/HTML/CSS</h5>
+                    <h6>Udemy</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="bg-pattern contato">
+        <div class="container-contato">
+            <h1>Entre em contato</h1>
+            <div class="links">
+                <a target="_blank" href="mailto:feliperodriguesbatista@outlook.com"><img src="assets/img/logo-email.svg"
+                        alt="Ícone email."></a>
+                <a target="_blank" href="https://www.linkedin.com/in/feliperodriguesbatista/"><img
+                        src="assets/img/logo-linkedin.svg" alt="Logo linkedin."></a>
+                <a target="_blank" href="https://github.com/feliperbatista"><img src="assets/img/logo-github.svg"
+                        alt="Logo Github."></a>
+                <a target="_blank" href="https://www.instagram.com/feliperbatista/"><img
+                        src="assets/img/logo-instagram.svg" alt="Logo Instagram."></a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-darkblue">
+        <div>Template: inspiração de Brittany Chiang</div>
+    </footer>
+</body>
+
+</html>
